@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [hris]">
+  <test thread-count="1" name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.qait.MavenDemo.HRIS_POM.HrisTestPom">
+        <methods>
+          <include name="Test6foodMenuTab"/>
+          <include name="Test7DidYouKnowTab"/>
+          <include name="browser"/>
+          <include name="Test4CelebrationTab"/>
+          <include name="close"/>
+          <include name="Test8AccessPayrollOnline"/>
+          <include name="Test3AboutHRISTab"/>
+        </methods>
+      </class> <!-- com.qait.MavenDemo.HRIS_POM.HrisTestPom -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [hris] -->
